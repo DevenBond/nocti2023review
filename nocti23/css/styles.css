@@ -1,0 +1,21 @@
+header{
+font-size: 10vw;
+text-align: center;
+}
+nav li{
+    width: 100%;
+    text-align: inline;
+    padding: 1% 0;
+    display: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+}
+header{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background: radial-gradient(blue, tan, gold)
+}
+nav a:hover{
+    background-color: white;
+}
