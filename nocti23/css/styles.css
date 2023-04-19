@@ -1,6 +1,8 @@
 header{
-font-size: 10vw;
+font-size: 200px;
 text-align: center;
+font-family: 'Bebas Neue', cursive;
+    background: radial-gradient(blue, tan, gold)
 }
 nav li{
     width: 100%;
@@ -10,12 +12,49 @@ nav li{
     font-family: 'Bebas Neue', cursive;
     font-size: 3vw;
 }
-header{
-    font-family: 'Bebas Neue', cursive;
+nav a:hover{
+    background-color: white;
 }
+header h1 {
+    margin:-150px;
+}
+
+
+header h1:first-of-type {
+    margin:0;
+}
+
+
 body{
     background: radial-gradient(blue, tan, gold)
 }
-nav a:hover{
-    background-color: white;
+
+blockquote{
+    text-align: center;
+    font-size: 10vw;
+}
+main{
+    background: -moz-radial-gradient(gold, tan, blue)
+}
+
+section {
+    padding: 150px 20%;
+    text-justify: inter-word;
+}
+
+p{
+    font-size: 2.5em;
+}
+
+footer {
+    font-size: 100px;
+    text-align: center;
+font-family: 'Bebas Neue', cursive;
+}
+
+.button {
+    text-align: center;
+    font-size: 3vw;
+    width: 40%;
+    margin: 0 30%;
 }
