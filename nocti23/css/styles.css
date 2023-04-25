@@ -71,3 +71,50 @@ font-size: 50px;
     width: 100%;
     height: auto;
   }
+
+  .column {
+    float: left;
+    text-align: center;
+    width: 33%;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+
+  img {
+width: 30vw;
+  }
+
+  figcaption {
+    background-color: black;
+    color: white;
+    max-width: 400px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    top: 0;
+  }
+
+  figure {
+    position: relative;
+    float: left;
+  }
+
+  .page {
+    font-size: 50px;
+  }
+
+  h3 {
+    float: right;
+    width: 60%;
+    font-size: 30px;
+  }
+
+  .sectionclassimages {
+    float: left;
+  }
