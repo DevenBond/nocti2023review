@@ -4,13 +4,21 @@ text-align: center;
 font-family: 'Bebas Neue', cursive;
     background: radial-gradient(blue, tan, gold)
 }
+
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
 nav li{
-    width: 100%;
-    text-align: inline;
+    display: inline-block;
     padding: 1% 0;
     display: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 3vw;
+    font-size: 5vw;
+    margin: 2%;
 }
 nav a:hover{
     background-color: white;
